@@ -1,77 +1,61 @@
 # Ex.No:1(A) INTRODUCTION TO JAVA PROGRAMMING, DATA TYPES, VARIABLES AND OPERATORS
 
 ## QUESTION:
-Lovely finds an ancient vault secured by binary locks. Each lock responds to bitwise operations to determine whether it opens or stays shut.
+Lovely has just started learning Java and is very excited about how to display messages on the screen. Her first mission is to understand how different types of print statements work:
 
-To unlock the vault, she is given two integers that represent key codes in binary. The vault uses the following bitwise operations to test them:
+System.out.print() → prints on the same line
 
-Lock Test                           Operator
-Bitwise AND                            &
-Bitwise OR                             |
-Bitwise XOR                            ^
-Left Shift first key by 1              <<
-Right Shift second key by 1            >>
+System.out.println() → prints and moves to the next line
 
-She needs to apply these operations and report the results.
+System.out.printf() → prints formatted output
 
-Input Format:
-First line: First key (integer)
-
-Second line: Second key (integer)
-
-Output Format:
-Bitwise AND: <result>
-Bitwise OR: <result>
-Bitwise XOR: <result>
-First Key << 1: <result>
-Second Key >> 1: <result>
 
 ## AIM:
-To write a Python program to perform bitwise operations (AND, OR, XOR, left shift, and right shift) on two given integers.
+To write a Java program that demonstrates the use of variables, data types, operators, and different print statements (print, println, and printf).
 
 ## ALGORITHM :
-1. Start the program.
-
-2. Read two integers a and b from the user.
-
-3. Compute a & b, a | b, and a ^ b for bitwise AND, OR, and XOR.
-
-4. Compute a << 1 (left shift of first key) and b >> 1 (right shift of second key).
-
-5. Display all the results and stop the program.
-
-
+1.	Start the program.
+2.	Import the required package java.util.* (optional).
+3.	Declare variables of different data types (int, float, char, String).
+4.	Perform simple arithmetic operations using operators.
+5.	Use System.out.print() to display output on the same line.
+6.	Use System.out.println() to display output on the next line.
+7.	Use System.out.printf() to print formatted output.
+8.	End the program.
 
 ## PROGRAM:
- ```java
+ ```
+/*
+Program to implement variables and Operators using Java
+Developed by: GOWSHIK S
+Register Number:212223220026
+*/
+```
+
+## Sourcecode.java:
+```
 import java.util.*;
-public class main
+public class Main
 {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        System.out.printf("Bitwise AND: %d\n",a&b);
-        System.out.printf("Bitwise OR: %d\n",a|b);
-        System.out.printf("Bitwise XOR: %d\n",a^b);
-        System.out.printf("First Key << 1: %d\n",a<<1);
-        System.out.printf("Second Key >> 1: %d",b>>1);
+        String name=sc.next();
+        int age=sc.nextInt();
+        double num=sc.nextDouble();
+        System.out.println("Hello, "+name);
+        System.out.println("You are "+age+" years old");
+        System.out.printf("Your favorite number is %.2f ",num);
     }
 }
 ```
 
-## Sourcecode.java:
-
-
-
-
-
-
-
 ## OUTPUT:
+<img width="766" height="385" alt="Screenshot 2025-11-14 105812" src="https://github.com/user-attachments/assets/8ca3a2e4-e913-4c3f-a8bf-73827075ab57" />
 
 
 ## RESULT:
-The program successfully performs bitwise operations (AND, OR, XOR, left shift, and right shift) on two given integers and displays the results.
+Thus, the Java program demonstrating variables, data types, operators, and print statements was successfully executed.
+
+
 
