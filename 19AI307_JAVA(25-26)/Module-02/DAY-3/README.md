@@ -62,8 +62,8 @@ To develop a Java program using ACCESS SPECIFIERS to demonstrate data hiding by 
  ```
 /*
 Program to implement a Access Specifiers using Java
-Developed by: Hashwatha M
-RegisterNumber: 212223240051
+Developed by: GOUTHAM K
+RegisterNumber: 212223110019
 */
 
 import java.util.Scanner;
